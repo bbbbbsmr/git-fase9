@@ -24,6 +24,13 @@ header nav ul li{
     padding: 15px 30px;    
 }
 
+header nav ul li:hover{
+    background-color: #e3e3e6;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+
+}
+
 header nav ul a{
     text-decoration: none;
     color: #757A7E;
@@ -36,6 +43,16 @@ header nav .Contacto{
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease
+
+}
+
+.Contacto:hover{
+    background-color: #003366;
+    transition: background-color 0.3s ease;
+    transform: translateY(-2px);
+
 }
 
 header section{
@@ -75,15 +92,62 @@ section .banner a{
     padding: 10px 20px;
     border-radius: 10px;
     text-decoration: none;
+    display: inline-block;
 }
 
 .boton-empresas{
     background-color: #004080;
     color: white;
     margin-right: 20px;
+    transition: all 0.3s ease
+}
+
+.boton-empresas:hover{
+    background-color: #003366;
+    transition: background-color 0.3s ease;
+    transform: translateY(-3px);
 }
 
 .boton-informacion{
     background-color: #ffffff;
     color: #000000;
+    transition: all 0.3s ease
+
 }
+
+.boton-informacion:hover{
+    background-color: #e6e1e1;
+    transition: background-color 0.3s ease;
+    color: #000000;
+    transform: translateY(-3px);
+
+}
+
+body .quienes-somos{
+    width: 100%;
+    max-width: 1450px;
+    margin: 60px auto;
+    display: flex;   
+    justify-content: space-between;
+}
+
+body .quienes-somos img{
+    background-size: cover;
+    width: 670px;
+    
+}
+
+.quienes-somos h1{
+  border-bottom: 3px solid #1B385F;
+  padding-bottom: 20px;
+  width: 300px;
+}
+
+.quienes-somos .section1 p{
+    padding-top: 50px;
+      width: 500px;
+      color: #7a7b7c;
+}
+
+
+
