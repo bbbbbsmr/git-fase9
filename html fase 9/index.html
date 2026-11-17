@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Vivero</title>
     <link rel="stylesheet" href="../html fase 9/css/vivero.css">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 <header>
@@ -38,9 +38,11 @@
                 <p>Nuestra propuesta va mas allá de un simple espacio físico: somos un catalizador de talento, enfocado en albergar proyectos tecnológicos que apuestan por la sostenibilidad y la mejora del entorno.</p>
             </div>
             <div class="puntos">
-                <span>Misión</span>
+                <strong>Misión</strong>
                 <p>Impulsar el ecosistema emprendedor tecnológico ofreciendo infraestructuras de primer nivel.</p>
-                <span>Visión</span>
+                <br>
+                <br>
+                <strong>Visión</strong>
                 <p>Ser el centro de referencia en innovación y desarrollo empresarial responsable.</p>
             </div>
         </div>
@@ -51,15 +53,23 @@
     </section>
     <section>
         <div class="edificio">
-        <h1>Un edificio pensado para la tecnología</h1>
-        <p>Seis plantas de infraestructura moderna diseñadas especificamente para cubrir las demandas de las empresas tecnológicas actuales.</p>
-        <img src="./img/heredero-empresa-sociedades.jpg" alt="edificio">
-        <div class="tarjetas">
-            <h2>Edificio de 6 plantas</h2>
-            <p>Nuestras instalaciones se distribuyen en seis niveles, configurados para ofrecer un equilibrio perfecto entre zonas privadas y areas comunes, optimizando la concentración y el networking.</p>
-            <h2>Espacios de Trabajo Adaptables</h2>
-            <p>Oficinas y zonas de trabajo preparadas para acoger a equipos de diferentes tamaños, con el entorno tecnológico necesario para desarrollar proyectos escalables con total comodidad.</p>
+        <nav class="titulo">
+            <h1>Un edificio pensado para la tecnología</h1>
+            <p>Seis plantas de infraestructura moderna diseñadas especificamente para cubrir las demandas de las empresas tecnológicas actuales.</p>
+        </nav>
+        <nav class=section2>
+            <img src="./img/heredero-empresa-sociedades.jpg" alt="edificio">
+            <div class="tarjetas">
+                <div class="tarjeta1">
+                    <h2>Edificio de 6 plantas</h2>
+                    <p>Nuestras instalaciones se distribuyen en seis niveles, configurados para ofrecer un equilibrio perfecto entre zonas privadas y areas comunes, optimizando la concentración y el networking.</p>
+                </div>
+                <div class="tarjeta2">
+                    <h2>Espacios de Trabajo Adaptables</h2>
+                    <p>Oficinas y zonas de trabajo preparadas para acoger a equipos de diferentes tamaños, con el entorno tecnológico necesario para desarrollar proyectos escalables con total comodidad.</p>
+                </div>
         </div>
+        </nav>
         </div>
     </section>
  <section>
@@ -68,47 +78,50 @@
         <h1>La comunidad San Luis.</h1>
         <p>Seis proyectos tecnológicos relacionados con los Objetivos de Desarrollo Sostenible.</p>
         <table>
-            <tr>
-                <td>01</td>
+            <tr class="sensora">
+                <td class="numero">01</td>
                 <td>
                     <strong>Sensora</strong>
                     <br>Empresa colaboradora destacada
                 </td>
-                <td>Tecnología asistiva e inclusión</td>
-                <td>ODS POR CONFIRMAR</td>
+                <td class="texto">Tecnología asistiva e inclusión</td>
+                <td><strong>ODS POR CONFIRMAR</strong></td>
             </tr>
-            <tr>
-                <td>02</td>
+            <tr class="EtxeHost">
+                <td class="numero">02</td>
                 <td>
-                    <strong>GreenByte</strong>
-                    <br>Empresa colaboradora destacada
+                    <strong>EtxeHost</strong>
+                    <br>Empresa colaboradora asociada
                 </td>
-                <td>Tecnología sostenible</td>
-                <td>ODS POR CONFIRMAR</td>
-                 <tr>
-                <td>03</td>
+                <td class="texto">Tecnología sostenible</td>
+                <td><strong>ODS POR CONFIRMAR</strong></td>
+            </tr>
+            <tr class="CYBERNEX">
+                <td class="numero">03</td>
                 <td>
                     <strong>CYBERNEX</strong>
                     <br>Empresa colaboradora destacada
                 </td>
-                <td>Ciberseguridad</td>
-                <td>ODS POR CONFIRMAR</td>
-                 <tr>
-                <td>04</td>
+                <td class="texto">Ciberseguridad</td>
+                <td><strong>ODS POR CONFIRMAR</strong></td>
+            </tr>
+            <tr class="Pixelwave">
+                <td class="numero">04</td>
                 <td>
                     <strong>Pixelwave</strong>
                     <br>Empresa colaboradora destacada
                 </td>
-                <td>Desarrollo de software</td>
-                <td>ODS POR CONFIRMAR</td>
-                 <tr>
-                <td>05</td>
+                <td class="texto">Desarrollo de software</td>
+                <td><strong>ODS POR CONFIRMAR</strong></td>
+            </tr> 
+            <tr class="Robotika">
+                <td class="numero">05</td>
                 <td>
                     <strong>Robotika LAB</strong>
                     <br>Empresa colaboradora destacada
                 </td>
-                <td>Robótica e inteligencia artificial</td>
-                <td>ODS POR CONFIRMAR</td>
+                <td class="texto">Robótica e inteligencia artificial</td>
+                <td><strong>ODS POR CONFIRMAR</strong></td>
             </tr>
         </table>
     </div>
@@ -117,19 +130,25 @@
         <div class="ventajas">
             <h1>Ventajas de instalarse en el Vivero</h1>
             <p>Formar parte del Vivero San Luis significa integrarse en un ecosistema que potencia el talento y facilita la colaboracion B2B.</p>
-            <div class="sinergias">
-            <h3>Sinergias Empresariales</h3>
-            <p>Comparte espacio con otras startups y fomenta proyectos conjunto, complementando servicios tecnologicos.</p>
-             <div class="intercambio">
-            <h3>Intercambio de conocimiento</h3>
-            <p>Flujo constante de ideas innovadoras en un ambiente donde el aprendizaje mutuo es parte del dia a dia.</p>
-             <div class="red">
-            <h3>Red de Contactos</h3>
-            <p>Amplia tu red profesional conociendo a otros emprendedores, provedores y posibles colaboradores estrategicos.</p>
-              <div class="entorno">
-            <h3>Entorno Innovador</h3>
-            <p>Instalaciones profesionales pensadas para proyectar una imagen de confianza y solidez tecnológica</p>
+            <div class="displayy">
+                <div class="sinergias">
+                    <h3>Sinergias Empresariales</h3>
+                    <p>Comparte espacio con otras startups y fomenta proyectos conjunto, complementando servicios tecnologicos.</p>
+                </div>
+                <div class="intercambio">
+                    <h3>Intercambio de conocimiento</h3>
+                    <p>Flujo constante de ideas innovadoras en un ambiente donde el aprendizaje mutuo es parte del dia a dia.</p>
+                </div>
+                <div class="red">
+                    <h3>Red de Contactos</h3>
+                    <p>Amplia tu red profesional conociendo a otros emprendedores, provedores y posibles colaboradores estrategicos.</p>
+                </div>
+                <div class="entorno">
+                    <h3>Entorno Innovador</h3>
+                    <p>Instalaciones profesionales pensadas para proyectar una imagen de confianza y solidez tecnológica</p>
+                </div>
             </div>
+        </div>
     </section>
     <section class="contacto">
         <div class="informacion">
