@@ -520,3 +520,69 @@ footer div.final{
     color: white;
 }
 
+footer {
+    background-color: #111727;
+    padding: 50px 5% 35px 5%;
+}
+
+footer .final {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #263042;
+}
+
+footer .final div {
+    margin-right: auto;
+    max-width: 320px;
+}
+
+footer .final h3 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .final h3 img {
+    width: 28px;
+    height: 28px;
+}
+
+footer .final p {
+    color: #757A7E;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+footer .final a {
+    color: #c4cbe0;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+footer .final a:hover {
+    color: #ffffff;
+}
+
+.abajo {
+    display: flex;
+    justify-content: space-between;
+    color: #757A7E;
+    font-size: 13px;
+}
+
+.legal {
+    display: flex;
+    gap: 15px;
+}
+
+.borde {
+    border-right: 1px solid #263042;
+    padding-right: 15px;
+}
