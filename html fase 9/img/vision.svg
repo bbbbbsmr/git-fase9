@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Visión: mirada al futuro</title>
+  <g stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 40C16 27 27 20 40 20s24 7 33 20c-9 13-20 20-33 20S16 53 7 40Z"/>
+    <circle cx="40" cy="40" r="11"/>
+  </g>
+  <circle cx="40" cy="40" r="3.5" fill="#111111"/>
+</svg>

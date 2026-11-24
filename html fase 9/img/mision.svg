@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Misión: objetivo</title>
+  <g stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="34" cy="46" r="25"/>
+    <circle cx="34" cy="46" r="15"/>
+    <circle cx="34" cy="46" r="5"/>
+    <path d="M34 46 66 14"/>
+    <path d="M54 14h12v12"/>
+  </g>
+</svg>

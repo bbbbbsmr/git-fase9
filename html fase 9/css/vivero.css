@@ -698,3 +698,45 @@ footer .final a:hover {
     border-right: 1px solid #263042;
     padding-right: 15px;
 }
+
+#svg1{
+    width: 40px;
+    margin-right: 15px;
+}
+
+.mision1{
+    display: flex;
+   
+    
+}
+.mision2{
+    display: flex;
+    flex-direction: column;
+
+}
+
+img#svg1{
+    padding-bottom: 40px;
+}
+
+#svg2{
+    width: 40px;
+    margin-right: 15px;
+}
+
+.vision1{
+    display: flex;
+}
+.vision2{
+    display: flex;
+    flex-direction: column;
+
+}
+
+textarea#mensaje{
+    max-width: 480px;
+    min-width: 480px;
+}
+
+
+
